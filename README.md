@@ -1,2 +1,3 @@
 # johan_wahlgren_TE19C
-jed
+
+jag gillar programmering, mattematik och skolan hej
