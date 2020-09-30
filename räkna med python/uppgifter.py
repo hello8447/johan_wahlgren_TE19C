@@ -12,15 +12,16 @@ print("uppgiift 4")
 
 
 #triangelns vinkel
-*spetsig
-*trubbig
-*rät
-*annat
+#*spetsig
+#*trubbig
+##*rät
+#*annat
 
-vinkel = float(input("ange en vinkel v i grader, där 0 <= 360 ")
+vinkel = float(input("ange en vinkel v i grader, där 0 <= 360 "))
 
-if vinkel >= 0 and vinkel <90
-print("vinkeln är spetsig")
-elif vinkel > 90 and < 180:
+if vinkel >= 0 and vinkel <90:
+    print("vinkeln är spetsig")
+elif vinkel > 90 and vinkel < 180:
+    print("trubbig")
 else: 
     print("vinkeln är inte spetsig, trubbig eller rät")
