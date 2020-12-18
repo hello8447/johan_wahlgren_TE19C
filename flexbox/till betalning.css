@@ -1,0 +1,30 @@
+.produkt-box{
+    display: flex; /*är ett CSS layout-läge som man kan lätt styra t.ex positionen, storlekar.....   */
+    flex-wrap: nowrap; /*tryckas ihop och inte faller på ny rad*/
+    font-size: 50px; /*texten's storlek */
+    font-weight: 80%; /*hur fet texten ska vara */
+  }
+  
+    .produkt-box  div {
+      background-color:white; /*bakgrunds färg */
+      width: 600px;/*hur bredd man vill container vara */
+      height: 125px;/*hur hög containen ska vara */
+      margin: 10px; /*hur långt från kanten container ska vara */
+      text-align: center; /* texten hamnar i mittten av containern */
+      line-height: 40px; /*hur högt line containen är */
+      font-size: 40px; /* textens storlek */
+      border: solid black; /*stil av ramen, svart och solid linjen */
+      border-width: 0,25cm ; /*ramen linjens tjorklek */
+      border-radius: 10%; /*hur rund är hörnet */
+      vertical-align:middle; /*hur jag vill placera den i höjdled */
+      display: table-cell;/*varja kan ha egna family och egna 'barn' */
+      margin: 0,1cm; /*hur stor avstånd vill man ha från vänster sidan av boxen*/
+      margin-top: 4cm;/*hur stor avstånd vill man ha mellan texten och den översta kanten av boxen */
+      border:solid black; 
+      border-width: 0,6cm;
+    }
+    .produkt-box  img{
+      height: 85%; /*containers höjd */
+      width: 85% /* containers bredd */
+    }
+  

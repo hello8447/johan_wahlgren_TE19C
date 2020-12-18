@@ -1,0 +1,28 @@
+.produkt-box{
+  display: flex;/*är ett CSS layout-läge då jag kan bestämma positioner och storleken av den */
+  flex-wrap: wrap;/*items i container kan vara flera rad */
+  font-size: 50px;/*texten storlek */
+  font-weight: 80%;/*hur fet är texten */
+  margin: 0,1cm;/* hur långt från kanten*/
+  margin-top: 4cm;/*hur långt från översta kanten */
+}
+
+.produkt-box  div {
+16:58 17/11/202016:59 17/11/2020  background-color:white;
+  width: 125px; /* hur bred är container*/
+  height: 125px; /* höjden av container */
+  margin: 10px; /* hur långt från kanten den ska vara*/
+  text-align: center; /* texten hamnar i mitten av container*/
+  line-height: 40px; /* hur högt är line box*/
+  font-size: 40px; /* textens storlek */
+  border: solid black; /* ramen runt container ska vara solid linje och svart färg */
+  border-width: 0,25cm ; /*ramens tjorklek */
+  border-radius: 10%; /*hur rund är hörnet */
+  display: table-cell; /*den har egenskaper så att varje kan ha egna family */ 
+}
+
+.produkt-box  img{
+  height: 85%; /* höjden av bilden */
+  width: 85%  /*bredden av bilden */
+}
+

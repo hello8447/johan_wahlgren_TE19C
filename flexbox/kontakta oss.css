@@ -1,0 +1,31 @@
+.produkt-box{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 50px;
+    font-weight: 80%;
+    
+    
+  }
+  .produkt-box  div {
+    background-color:white;
+    width: 600px;           /*hur bredd container ska vara */
+    height: 115px;         /* hur hög man vill containern ska vara */
+    margin: 10px;           /* hur långt från kanten är container*/
+    text-align: center;     /* man lägger texten i mitten av conatinern*/
+    line-height: 40px;      /*hur högt är line boxen */
+    font-size: 40px;        /* textens storlek*/    
+    border: solid black;      /*ramen runt container ska vara solid linje och svart */
+    border-width: 0,25cm ;    /* hur tjock man vill ramen ska vara*/
+    border-radius: 10%;    /* hur rund man vill bodern ska vara runt kanterna av bodern*/
+    vertical-align:middle; /*hur jag vill placera de i höjden */
+    display: table-cell;/*den har egenskapen så att varje kan ha egna family/barn */
+    margin: 0,1cm;/* hur stor avstånd vill man ha från vänster kanten*/
+    margin-top: 4cm;/* hur stor man vill ha på mellan texten och den oversta kanten */
+    border:solid black;   /* ram som är är runt contaiern ska vara solid linje och svart*/
+    border-width: 0,6cm;/*ramen tjocklek */
+    
+  }
+  .produkt-box  img{
+    height: 85%;/*bildens höjd   */
+    width: 85% /*bredden of bilden  */
+  }

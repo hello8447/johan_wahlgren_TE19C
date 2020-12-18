@@ -1,23 +1,63 @@
 h1 {
-    color:black;
+    color:black; /*rubriken svart färg */
+    text-align: center;/*rubriken texten hamnar i mitten av containen */
   }
-        
-        .item {
-          flex: 0 22%;
-          height: 150px;
-          margin-bottom: 2%; 
-          background-color:blue ;
-    } 
-    body {
-      background-color: whitesmoke;
-    }
-    .container {
-      display: flex;
-      flex-wrap: wrap-reverse;
-      justify-content: space-between;
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNx18uJSJdwq_y_kZ7SZ5xCllEMxanpCF1zA&usqp=CAU" width="20" height="40" alt="Computer Hope">
   
+  .item {
+          flex: 0 22%; /*item shrink och tar upp 22% */
+          height: 100px; /*höjden av item */
+          margin-bottom: 2%; /*hur långt den är från bottom */
+          background-color:#0000ff ; /*set bakgrunds färg blå */
+          
+  } 
+  
+  body {
+      background-color: whitesmoke; /*bakgrund färg of body */
+      display:flex; /*layout-läge flex som jag kan styra positionen, storleken ... */
+      flex-direction: column;/*items i container ska placeras i column-format, inte rad */
+      min-width: 100vh;/*minimal bredd */
+  }
+  
+  .container {
       display: flex;
-          flex-wrap: wrap-reverse;
-          justify-content: space-between;
-        }
+      flex-wrap: wrap-reverse; /*flera linjen än en och från andra hållet */
+      justify-content: space-between; /*distributerar jämnt */
+  }
+  
+  div {
+        height:100px;/*höjden av boxen */
+  }
+  
+  .meny{
+    display: flex;
+    flex-wrap: nowrap;    /* Nowrap betyder att man kan ha fler containers på en rad */
+    font-size: 50px;/*storlekn */
+    font-weight: 80%;/*hur fet den är */
+  }
+  
+  .meny > div {
+    background-color:whitesmoke;/* bakgrunds färg*/
+    width: 500px;/*hur bredd jag vill container ska vara */
+    margin: 10px;/*hur långt från kanten den ska vara */
+    text-align: center;/*texten ska hamna i mitten av container */
+    line-height: 40px;/*hur högt line box är */
+    font-size: 40px;/* textens storlek*/
+    border: solid black; /*ramen runt ska vara solid linjen och svart */
+    border-width: 0.25cm; /*ramens tjorklek */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: blue;/*stil av texten */
+  }
+  
+  footer {
+      position: absolute;   
+      bottom: 0;      /* footern är på botten av hemsidan  */
+      width: 100%;  /* bredd av footer container*/
+      text-align: center; /*texten i footern är i mitten  */
+      background-color:red;   
+      font-size: 18px;    /* storleken på footer*/
+      margin-top: auto;  /* Footern är alltid konstant på botten och ändras automatiskt anpassad till t.ex vilken storlek man har på skärmen och man har full skärm eller gör skärmen mindre. */
+     }
+   }
+  
+  
+  
